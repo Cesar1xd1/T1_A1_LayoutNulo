@@ -19,10 +19,56 @@ class LayoutNulo extends JFrame{
 		add(txtTitulo);//A esta altura cordenada x el Preview
 		add(txtTitulo2);
 		
+		
+		
+		//PARTE DERECHA
 		JLabel preview = new JLabel("Preview");
-		preview.setBounds(320, 0, 300, 25);
+		preview.setBounds(320, 0, 300, 20);
 		add(preview);
 		
+		JLabel aste = new JLabel("*indicate required*");
+		aste.setBounds(670, 20, 120, 20);
+		aste.setFont(null);
+		add(aste);
+		
+		JLabel email = new JLabel("Email Address");
+		email.setBounds(340, 40, 300, 20);
+		email.setFont(null);
+		add(email);
+		
+		JTextArea emailTA = new JTextArea("                                                                                                                                          *");
+		emailTA.setBounds(340, 60, 425, 20);
+		add(emailTA);
+		
+		JLabel firstN = new JLabel("Fisrt Name");
+		firstN.setBounds(340, 90, 300, 20);
+		firstN.setFont(null);
+		add(firstN);
+		
+		JTextArea firstNTA = new JTextArea();
+		firstNTA.setBounds(340, 110, 425, 20);
+		add(firstNTA);
+		
+		JLabel lastN = new JLabel("Last Name");
+		lastN.setBounds(340, 140, 300, 20);
+		lastN.setFont(null);
+		add(lastN);
+		
+		JTextArea lastNTA = new JTextArea();
+		lastNTA.setBounds(340, 160, 425, 20);
+		add(lastNTA);
+		
+		JButton subscribe = new JButton("Subscribe");
+		subscribe.setBounds(340, 190, 100, 20);
+		add(subscribe);
+		
+		
+		
+		
+		
+		
+		
+		//AQUI TERMINA LA PARTE DERECHA
 		
 		
 		
