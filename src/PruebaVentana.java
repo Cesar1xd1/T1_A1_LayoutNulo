@@ -4,7 +4,7 @@ class LayoutNulo extends JFrame{
 		getContentPane().setLayout(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
-		setSize(800,650);
+		setSize(800,520);
 		
 		setLocationRelativeTo(null);
 		
@@ -63,9 +63,14 @@ class LayoutNulo extends JFrame{
 		add(subscribe);
 		
 		
+		//PArte de area de texto grande
+		JLabel copy = new JLabel("Copy/paste onto your site");
+		copy.setBounds(320,250,300,20);
+		add(copy);
 		
-		
-		
+		JTextArea code = new JTextArea();
+		code.setBounds(320, 270, 425, 150);
+		add(code);
 		
 		
 		//AQUI TERMINA LA PARTE DERECHA
